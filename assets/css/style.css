@@ -20,6 +20,7 @@ body {
 }
 
 /* Navbar */
+/* Navbar */
 .navbar {
   background-color: var(--primary-color);
   color: #fff;
@@ -44,21 +45,10 @@ body {
   width: auto;
   max-width: 100%;
   object-fit: contain;
-	margin-right: 1rem;
+  margin-right: 1rem;
 }
 
-@media (max-width: 768px) {
-  .logo-img {
-    height: 40px;
-  }
-
-  .navbar .nav-links {
-    flex-direction: column;
-    gap: 1.5rem;
-    margin-top: 1rem;
-  }
-}
-
+/* Nav Links */
 .navbar .nav-links {
   display: flex;
   gap: 3rem;
@@ -70,7 +60,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
-	position: relative;
+  position: relative;
 }
 
 .navbar .nav-links a:hover {
@@ -78,19 +68,71 @@ body {
 }
 
 .navbar .nav-links a::after {
-	content: '';
-	position: absolute;
-	width: 0;
-	height: 2px;
-	background: var(--secondary-color);
-	left: 0;
-	bottom: -5px;
-	transition: width 0.3s ease;
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: var(--secondary-color);
+  left: 0;
+  bottom: -5px;
+  transition: width 0.3s ease;
 }
 
 .navbar .nav-links a:hover::after {
-	width: 100%;
+  width: 100%;
 }
+
+/* Burger Menu */
+.burger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.burger span {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .logo-img {
+    height: 40px;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .nav-menu {
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    padding-top: 1rem;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .navbar .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
 
 /* Hero Section */
 .hero {
