@@ -1,3 +1,25 @@
+// Smooth Scroll to top button
+   const backToTopButton = document.getElementById("backToTop");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 100) {
+      backToTopButton.classList.add("show");
+    } else {
+      backToTopButton.classList.remove("show");
+    }
+  });
+
+  backToTopButton.addEventListener("click", () => {
+    // Fallback for older browsers
+    if ("scrollBehavior" in document.documentElement.style) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } else {
+      window.scrollTo(0, 0); // Instant scroll for older browsers
+    }
+  });
+
+
+
 // Toggle mobile navbar
 document.getElementById("burger").addEventListener("click", function () {
   document.getElementById("nav-menu").classList.toggle("active");
@@ -60,50 +82,4 @@ galleryData.forEach(event => {
     <button onclick="location.href='${event.link}'">View Details</button>
   `;
   galleryContainer.appendChild(card);
-});
-
-// Committee Section (Dynamic)
-const committees = [
-  {
-    title: "Executive Committee",
-    members: [
-      { name: "Saif Rahman", role: "President", batch: "BBA 21st" },
-      { name: "Tania Akter", role: "Vice President", batch: "BBA 22nd" },
-      { name: "Rakib Hasan", role: "General Secretary", batch: "BBA 21st" },
-      { name: "Nusrat Jahan", role: "Treasurer", batch: "BBA 23rd" },
-      { name: "Tanvir Islam", role: "Coordinator", batch: "BBA 22nd" }
-    ]
-  },
-  {
-    title: "Event Management Committee",
-    members: [
-      { name: "Aminul Islam", role: "Head", batch: "BBA 23rd" },
-      { name: "Shorna Akter", role: "Member", batch: "BBA 24th" },
-      { name: "Sajib Hossain", role: "Member", batch: "BBA 24th" },
-      { name: "Puja Das", role: "Member", batch: "BBA 22nd" },
-      { name: "Sajid Ahmed", role: "Member", batch: "BBA 23rd" }
-    ]
-  }
-];
-
-const committeeContainer = document.getElementById("committee-container");
-committees.forEach(committee => {
-  const box = document.createElement("div");
-  box.className = "committee-box";
-  box.innerHTML = `<h3>${committee.title}</h3>`;
-
-  const table = document.createElement("table");
-  table.innerHTML = `
-    <tr><th>Name</th><th>Designation</th><th>Batch</th></tr>
-    ${committee.members.map(member => `
-      <tr>
-        <td>${member.name}</td>
-        <td>${member.role}</td>
-        <td>${member.batch}</td>
-      </tr>
-    `).join('')}
-  `;
-
-  box.appendChild(table);
-  committeeContainer.appendChild(box);
 });

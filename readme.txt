@@ -16,25 +16,30 @@ Then contact section add club email, number, social links like facebook page, gr
 Last add a little footer section and customize by your own.
 
 
+Internship opportunities
+Career part - opportunities hub
+DSC
+Jobs in chattogram
 
 
-চট্টগ্রামে ইন্টার্নশিপের প্রস্তুতি—তোমার পথ শুরু হোক আজ থেকেই!
 
-প্রতি বছর চট্টগ্রামের বিশ্ববিদ্যালয়গুলো থেকে প্রায় ১৫,০০০+ শিক্ষার্থী ইন্টার্নশিপের জন্য প্রস্তুত হয়। কিন্তু এদের মধ্যে ৩০-৪০% এর বেশি শিক্ষার্থী ইন্টার্নশিপের সুযোগ পায় না—প্রধান কারণগুলো হলো:
+Internship Preparation in Chattogram – Start Your Journey Today!
 
-🔹 প্রফেশনাল CV ও Cover Letter এর অভাব
-🔹 সঠিক কোম্পানি খুঁজে না পাওয়া
-🔹 Internship Report ও Summary লেখার অভিজ্ঞতার ঘাটতি
-🔹 গাইডলাইন ও রিসোর্সের অভাব
+Every year, over 15,000+ students from universities in Chattogram prepare for internships. Yet, only 30-40% of them actually secure one. The key reasons?
 
-তোমার নাম যেন সেই তালিকায় না ওঠে, সেজন্যই নিয়ে এসেছি একটি সম্পূর্ণ চট্টগ্রামভিত্তিক ইন্টার্নশিপ সাপোর্ট প্যাকেজ, যেখানে থাকছে:
+🔹 Lack of a professional CV and Cover Letter
+🔹 Inability to find the right companies
+🔹 Little to no experience in writing Internship Reports or Summaries
+🔹 Scarcity of proper guidance and resources
 
-- Cover Letter Tips: https://tinyurl.com/4kek6b2t
-- ATS friendly CV Tips: https://tinyurl.com/4runrm43
+To ensure you’re not one of them, here’s a complete Chattogram-based Internship Support Package designed just for you, including:
+
+- Cover Letter Writing Guidelines: https://tinyurl.com/4kek6b2t
+- ATS friendly CV Preparation Tips: https://tinyurl.com/4runrm43
 - Internship Report Writing: https://tinyurl.com/5n83bksx
 - Internship Report Summary: https://tinyurl.com/3t76scmz
 - Internship Hunting: https://tinyurl.com/nzb3udnc
 - CTG based Companies: https://tinyurl.com/2s3v5t89
-- For More Opportunities: https://tinyurl.com/38sw4xws
+- For More Opportunities: https://tinyurl.com/hhzhc4ft
 
-ভবিষ্যতের ক্যারিয়ার গড়ার পথে এক ধাপ এগিয়ে যাও আজ থেকেই।
+Take the first step towards building your future career—start today.
