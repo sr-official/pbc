@@ -56,30 +56,83 @@ document.addEventListener("DOMContentLoaded", typeEffect);
 // Gallery Cards (Dynamic)
 const galleryData = [
   {
-    title: "Business Fair 2024",
-    image: "gallery1.jpg",
+    title: "Iftar Mahfil 2018",
+    date: "March 15, 2024",
+    description: "A showcase of student startups and innovations.",
+    image: "assets/images/gallery/iftar-mahfil-2018.jpg",
     link: "event-details/business-fair-2024.html"
   },
   {
-    title: "Workshop on Entrepreneurship",
-    image: "gallery2.jpg",
-    link: "event-details/entrepreneurship-workshop.html"
+    title: "Iftar Mahfil 2019",
+    date: "March 15, 2024",
+    description: "A showcase of student startups and innovations.",
+    image: "assets/images/gallery/iftar-mahfil-2019.jpg",
+    link: "event-details/business-fair-2024.html"
   },
   {
-    title: "Industry Visit to BSRM",
-    image: "gallery3.jpg",
-    link: "event-details/bsrm-visit.html"
-  }
+    title: "Business Festa 2019",
+    date: "March 15, 2024",
+    description: "A showcase of student startups and innovations.",
+    image: "assets/images/gallery/business-festa-2019.jpg",
+    link: "event-details/business-fair-2024.html"
+  },
+  {
+    title: "The Grand Get Together 2018",
+    date: "March 15, 2024",
+    description: "A showcase of student startups and innovations.",
+    image: "assets/images/gallery/grand-get-together.jpg",
+    link: "event-details/business-fair-2024.html"
+  },
+  {
+    title: "PBC 1st Year Token of Love",
+    date: "March 15, 2024",
+    description: "A showcase of student startups and innovations.",
+    image: "assets/images/gallery/first-year-token-of-love.jpg",
+    link: "event-details/business-fair-2024.html"
+  },
+  {
+    title: "PBC Project Usnotha 2020",
+    date: "March 15, 2024",
+    description: "A showcase of student startups and innovations.",
+    image: "assets/images/gallery/project-usnotha.jpg",
+    link: "event-details/business-fair-2024.html"
+  },
+  {
+    title: "PBC Soldiers Requirement-1",
+    date: "March 15, 2024",
+    description: "A showcase of student startups and innovations.",
+    image: "assets/images/gallery/soldiers-requirement-1.jpg",
+    link: "event-details/business-fair-2024.html"
+  },
+  {
+    title: "PBC Soldiers Requirement-2",
+    date: "March 15, 2024",
+    description: "A showcase of student startups and innovations.",
+    image: "assets/images/gallery/soldiers-requirement-2.jpg",
+    link: "event-details/business-fair-2024.html"
+  },
+
 ];
 
 const galleryContainer = document.getElementById("gallery-container");
+
 galleryData.forEach(event => {
   const card = document.createElement("div");
   card.className = "gallery-card";
   card.innerHTML = `
     <img src="${event.image}" alt="${event.title}" />
-    <h3>${event.title}</h3>
-    <button onclick="location.href='${event.link}'">View Details</button>
+    <div class="card-content">
+      <h3>${event.title}</h3>
+  
+  
+
+    </div>
   `;
   galleryContainer.appendChild(card);
 });
+
+// <p class="event-date">${event.date}</p>
+// event date can be added after the title
+// <p class="event-description">${event.description}</p>
+// <button onclick="location.href='${event.link}'">View Details</button>
+// view details button can be added after the description
