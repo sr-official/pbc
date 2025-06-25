@@ -8,7 +8,7 @@
 
 :root {
 	--primary-color: #042b4c;
-	--secondary-color: #ffcb05;
+	--secondary-color: #ffffff;
 	--text-color: #333;
 	--background-color: #f9f9f9;
 }
@@ -42,11 +42,14 @@ body {
   transition: opacity 0.4s, visibility 0.4s;
   opacity: 0;
   visibility: hidden;
+  border: 1px solid transparent
 }
 
 #backToTop:hover {
   background-color: var(--secondary-color);
   transition: all 0.3s ease;
+  color: #0b3c5d;
+  border: 1px solid #0b3c5d;
 }
 
 #backToTop.show {
@@ -138,7 +141,7 @@ body {
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .logo-img {
     height: 40px;
   }
@@ -330,16 +333,21 @@ body {
   padding: 1rem;
 }
 
-.founder {
+#founders {
   background: #fff;
   border-radius: 8px;
+  margin: 2rem 0 1rem;
   padding: 1rem;
-  max-width: 500px;
+  /* max-width: 500px; */
   text-align: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.founder img {
+/* .founder img {
   width: 100%;
   height: auto;
   border-radius: 8px;
@@ -360,7 +368,30 @@ body {
 
 .founder table tr{
 	border-bottom: 1px solid #ccc;
+} */
+
+.unique-button {
+		display: inline-block;
+    margin-bottom: 30px;
+    padding: 8px 16px;
+    background-color: #0b3c5d; /* LinkedIn blue */
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    /* font-size: 0.8rem; */
+    transition: background-color 0.3s ease;
+    transform: 0.2s ease;
+    border: 1px solid transparent
 }
+
+.unique-button:hover {
+  	background-color: transparent;
+    color: #0b3c5d;
+    border: 1px solid #0b3c5d;
+}
+
+
 
 /* Committee Section */
 
@@ -402,18 +433,23 @@ body {
 }
 
 .view-button {
-  display: inline-block;
-  margin-top: 1.2rem;
-  background-color: var(--secondary-color);
-  color: #fff;
-  padding: 0.6rem 1.2rem;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: background 0.3s ease;
+		display: inline-block;
+    padding: 8px 16px;
+    background-color: #0b3c5d; /* LinkedIn blue */
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    /* font-size: 0.8rem; */
+    transition: background-color 0.3s ease;
+    transform: 0.2s ease;
+    border: 1px solid transparent
 }
 
 .view-button:hover {
-  background-color: var(--primary-color);
+  	background-color: transparent;
+    color: #0b3c5d;
+    border: 1px solid #0b3c5d;
 }
 /* Table Wrapper */
 

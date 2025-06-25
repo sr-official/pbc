@@ -43,6 +43,22 @@
 			font-size: 2rem;
     }
 
+.founders-group-photo {
+  text-align: center;
+  margin: 0 auto 2rem;
+  max-width: 500px; /* Prevents excessive width on large screens */
+  padding: 0 20px;
+}
+
+.founders-group-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+
     .founder-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -93,7 +109,7 @@
 			border-radius: 25px;
 			text-decoration: none;
 			font-weight: bold;
-			font-size: 0.8rem;
+			/* font-size: 0.8rem; */
 			transition: background-color 0.3s ease, transform 0.2s ease;
 			border: 1px solid transparent
 		}
@@ -104,11 +120,7 @@
 			border: 1px solid #0b3c5d;
 			/* transform: translateY(-2px); */
 		}
-		.founder-link a:active {
-			background-color: #004060;
-			transform: translateY(0);
-		
-		}
+	
 
 		    /* Responsive Grid: Max 3 cards per row */
     @media (min-width: 768px) {
@@ -137,69 +149,73 @@
     </nav>
   </header>
   <h2>Meet Our Founding Members</h2>
+  <div class="founders-group-photo">
+  <img src="../images/founders.jpeg" alt="Founding Members Group Photo" />
+</div>
+
   <div class="founder-container">
     <!-- Founder 1 -->
     <div class="founder-card">
       <img src="../images/founders/abrar-shariar-akib.jpg" alt="Abrar Shariar Akib">
       <div class="founder-name">Abrar Shariar Akib</div>
-      <!-- <div class="founder-bio">Business graduate passionate about innovation and leadership.</div> -->
+      <div class="founder-bio"><strong>BBA: </strong>12th</div>
       <div class="founder-link"><a href="https://www.linkedin.com/in/abrarshariarakib/" target="_blank">LinkedIn</a></div>
     </div>
-
+    
     <!-- Founder 2 -->
     <div class="founder-card">
       <img src="../images/founders/ashraful-karim-chowdhury.png" alt="Ashraful Karim Chowdhury">
       <div class="founder-name">Ashraful Karim Chowdhury</div>
-      <!-- <div class="founder-bio">Entrepreneur with a vision for social impact and youth empowerment.</div> -->
+      <div class="founder-bio"><strong>BBA: </strong>3rd</div>
       <div class="founder-link"><a href="https://www.facebook.com/fahim.khan.16906715" target="_blank">Facebook</a></div>
     </div>
-
+    
     <!-- Founder 3 -->
     <div class="founder-card">
-			<img src="../images/founders/md-sahadath-hossen.jpg" alt="Md Sahadath Hossen">
+      <img src="../images/founders/md-sahadath-hossen.jpg" alt="Md Sahadath Hossen">
       <div class="founder-name">Md Sahadath Hossen</div>
-      <!-- <div class="founder-bio">Dedicated to data analytics and strategic growth.</div> -->
+      <div class="founder-bio"><strong>BBA: </strong>3rd</div>
       <div class="founder-link"><a href="https://www.facebook.com/mdsahadathhosen321" target="_blank">Facebook</a></div>
     </div>
 		
 		
 		<!-- Founder 4 -->
     <div class="founder-card">
-			<img src="../images/founders/abdur-rahim-arif.jpg" alt="Abdur Rahim Arif">
+      <img src="../images/founders/abdur-rahim-arif.jpg" alt="Abdur Rahim Arif">
       <div class="founder-name">Abdur Rahim Arif</div>
-      <!-- <div class="founder-bio">Marketing enthusiast building bridges between ideas and execution.</div> -->
+      <div class="founder-bio"><strong>BBA: </strong>9th</div>
       <div class="founder-link"><a href="https://www.facebook.com/abdur.rahim.arif.729096/" target="_blank">Facebook</a></div>
     </div>
 		
 		<!-- Founder 5 -->
     <div class="founder-card">
-			<img src="../images/founders/iftekhar-kaiser.jpg" alt="Iftekhar Kaiser">
+      <img src="../images/founders/iftekhar-kaiser.jpg" alt="Iftekhar Kaiser">
       <div class="founder-name">Iftekhar Kaiser</div>
-      <!-- <div class="founder-bio">Web developer and design thinker focused on digital solutions.</div> -->
+      <div class="founder-bio"><strong>BBA: </strong>9th</div>
       <div class="founder-link"><a href="https://www.facebook.com/lead.iftekharkaiser" target="_blank">Facebook</a></div>
     </div>
 		
 		<!-- Founder 6 -->
     <div class="founder-card">
-			<img src="../images/founders/rebeka-khanam.jpg" alt="Rebeka Khanam">
+      <img src="../images/founders/rebeka-khanam.jpg" alt="Rebeka Khanam">
       <div class="founder-name">Rebeka Khanam</div>
-      <!-- <div class="founder-bio">HR professional creating positive workplace cultures.</div> -->
+      <div class="founder-bio"><strong>BBA: </strong>10th</div>
       <div class="founder-link"><a href="https://www.facebook.com/kuasamanab" target="_blank">Facebook</a></div>
     </div>
 		
 		<!-- Founder 7 -->
     <div class="founder-card">
-			<img src="../images/founders/md-shahab-uddin.jpg" alt="Md Shahab Uddin">
+      <img src="../images/founders/md-shahab-uddin.jpg" alt="Md Shahab Uddin">
       <div class="founder-name">Md Shahab Uddin</div>
-      <!-- <div class="founder-bio">Finance strategist with a knack for numbers and insights.</div> -->
+      <div class="founder-bio"><strong>BBA: </strong>12th</div>
       <div class="founder-link"><a href="https://www.facebook.com/md.sam.764" target="_blank">Facebook</a></div>
     </div>
 		
 		<!-- Founder 8 -->
     <div class="founder-card">
-			<img src="../images/founders/mohammed-rayyan-karim.jpg" alt="Mohammed Rayyan Karim">
+      <img src="../images/founders/mohammed-rayyan-karim.jpg" alt="Mohammed Rayyan Karim">
       <div class="founder-name">Mohammed Rayyan Karim</div>
-      <!-- <div class="founder-bio">Driven by innovation in tech and sustainable entrepreneurship.</div> -->
+      <div class="founder-bio"><strong>BBA: </strong>12th</div>
       <div class="founder-link"><a href="https://www.linkedin.com/in/rayyankarim" target="_blank">LinkedIn</a></div>
     </div>
 		
@@ -207,7 +223,8 @@
     <div class="founder-card">
       <img src="../images/founders/mohammed-sajid.jpg" alt="Mohammed Sajid">
       <div class="founder-name">Mohammed Sajid</div>
-      <!-- <div class="founder-bio">Future-ready leader focused on creative business solutions.</div> -->
+      <div class="founder-bio"><strong>BBA: </strong>13th</div>
+
       <div class="founder-link"><a href="https://www.facebook.com/sajid001.me/" target="_blank">Facebook</a></div>
     </div>
   </div>
