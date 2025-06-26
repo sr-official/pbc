@@ -8,7 +8,7 @@ const committeeMembers = [
  			{ name: "Md Masum Rana", role: "Organizing Secretary", batch: "BBA 31th" },
  			{ name: "Md Reduanul Islam Shaikh", role: "Assistant Organizing Secretary", batch: "BBA 31th" },
  			{ name: "Ramim Al Mehedi", role: "Event Secretary", batch: "BBA 30th" },
- 			{ name: "Kamrun Nissa Talukdar", role: "Publicity & Publication Secretary", batch: "BBA 31th" },
+ 			{ name: "Kamrun Nissa Talukder", role: "Publicity & Publication Secretary", batch: "BBA 31th" },
  			{ name: "Md Ajharul Hossain", role: "Assistant Publicity Secretary", batch: "BBA 29th" },
  			{ name: "Mohammad Shoaib Uddin", role: "Information & Research Secretary", batch: "BBA 34th" },
  			{ name: "Md Jahidul Islam Nafiz", role: "Sport & Cultural Secretary", batch: "BBA 29" },
